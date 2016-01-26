@@ -1,0 +1,66 @@
+aside{
+	width: 200px;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+}
+	section.login{
+		width: 180px;
+		height: 152px;
+		border: 3px solid #CCC;
+		padding: 10px;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+		.login h2{
+			display: block;
+			padding: 0px 0px 0px 28px;
+			margin: 0px 0px 16px 0px;
+			background-image: url('../img/block.png');
+			background-repeat: no-repeat;
+			background-position: center left;
+			text-align: left;
+			text-transform: uppercase;
+			font-size: 16px;
+		}
+		.login  a,
+		.login input[type="submit"]{
+			display: block;
+			text-align: right;
+			padding: 2px 28px 3px 0px;
+			margin: 10px 0px 5px 0px;
+			color: #333;
+			background-image: url('../img/weiter.png');
+			background-repeat: no-repeat;
+			background-position: center right;
+		}
+		.login label{
+			display: block;
+			margin: 7px 0px 0px 0px;
+		}
+		.login input{
+			display: block;
+			width: 170px;
+		}
+			.login input[type="text"],
+			.login input[type="password"]{
+				height: 16px;
+				padding: 3px 5px 3px 5px;
+				border: 1px solid #99072E;
+			}
+			.login input[type="submit"]{
+				background-color: #FFF;
+				border: none;
+				width: 180px;
+				cursor: pointer;
+			}
+		
+		.login p{
+			display: block;
+			border-top: 2px solid #CCC;
+			border-bottom: 2px solid #CCC;
+			padding: 5px;
+			margin-bottom: 20px;
+			text-align: right;
+			font-weight: bold;
+		}
